@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+.box:hover  .item{
+    @apply bg-black text-red-900;
+}
